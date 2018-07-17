@@ -92,6 +92,9 @@ yarn build
 ### 補足
 - 試してないけど、BitBucketからでもNetlifyで公開可能だと思われ。
 
+## バグを見つけたら
+- こちらで報告お願いします。(要GitHubアカウント)
+https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/issues
 
 ## 免責事項
 このツールを使用していかなる問題が起きても、私はその責を負いません。使用は自己責任でお願いします。
