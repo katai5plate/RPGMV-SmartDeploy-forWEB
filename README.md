@@ -70,7 +70,7 @@ yarn build
 2. `基本的な使い方`の手順でデプロイメントを行う。
 3. `1.`で作ったリポジトリを`git clone`でローカルに落とす。
 4. `RPGMV-SmartDeploy-forWEB`ディレクトリの内容をそのままコピーする。
-5. コミット＆プッシュする。`git commit -m "Create a project"` -> `git push origin master`
+5. コミット＆プッシュする。`git add -A` -> `git commit -m "Create a project"` -> `git push origin master`
 ### 設定
 6. ブランチにファイルがアップロードされたことを確認したら、ブランチの`Setting`を開く。
 7. `Setting` -> `Options` -> `GitHub Pages` -> `Source`<br>-> `None`から`master branch /docs folder`に設定し、`Save`をクリック。
@@ -79,17 +79,13 @@ yarn build
 ## Netlifyでゲームを遊べるようにする（上級者向け）
 ### 準備
 0. GitHubとNetlifyのアカウントを作る
-1. GitHubで製作中のゲーム専用のリポジトリを作る。
-2. `基本的な使い方`の手順でデプロイメントを行う。
-3. `1.`で作ったリポジトリを`git clone`でローカルに落とす。
-4. `RPGMV-SmartDeploy-forWEB`ディレクトリの内容をそのままコピーする。
-5. コミット＆プッシュする。`git commit -m "<ここに更新メッセージを入力する>"` -> `git push origin master`
+1. `GitHub Pagesでゲームを遊べるようにする（上級者向け）`の 1～5 を行う
 ### 設定
-6. ブランチにファイルがアップロードされたことを確認したら、<https://app.netlify.com/>を開く。
-7. `New site from Git`をクリック -> `Continuous Deployment`から`GitHub`をクリック。
-8. `1.`で作ったリポジトリ名を見つけてクリック
-9. `Branch to deploy`は`master`を選択 -><br>`Build command`は`yarn server:deploy`を入力 -> `Publich directory`は`docs`を入力 -><br>`Deploy site`をクリック。
-10. 遷移したページの上の方に、デプロイが成功したらURLが表示される。
+2. ブランチにファイルがアップロードされたことを確認したら、<https://app.netlify.com/>を開く。
+3. `New site from Git`をクリック -> `Continuous Deployment`から`GitHub`をクリック。
+4. `1.`で作ったリポジトリ名を見つけてクリック
+5. `Branch to deploy`は`master`を選択 -><br>`Build command`は`yarn server:deploy`を入力 -> `Publich directory`は`docs`を入力 -><br>`Deploy site`をクリック。
+6. 遷移したページの上の方に、デプロイが成功したらURLが表示される。
 ### 補足
 - 試してないけど、BitBucketからでもNetlifyで公開可能だと思われ。
 
