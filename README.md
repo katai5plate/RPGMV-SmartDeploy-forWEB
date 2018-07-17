@@ -70,7 +70,7 @@ yarn build
 2. `基本的な使い方`の手順でデプロイメントを行う。
 3. `1.`で作ったリポジトリを`git clone`でローカルに落とす。
 4. `RPGMV-SmartDeploy-forWEB`ディレクトリの内容をそのままコピーする。
-5. コミット＆プッシュする。`git add -A` -> `git commit -m "Create a project"` -> `git push origin master`
+5. コミット＆プッシュする。`git add -A` -> `git commit -m "Update"` -> `git push origin master`
 ### 設定
 6. ブランチにファイルがアップロードされたことを確認したら、ブランチの`Setting`を開く。
 7. `Setting` -> `Options` -> `GitHub Pages` -> `Source`<br>-> `None`から`master branch /docs folder`に設定し、`Save`をクリック。
