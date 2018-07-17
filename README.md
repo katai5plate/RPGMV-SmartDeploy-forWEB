@@ -60,7 +60,7 @@ yarn build
 ```
 4. 問題なければ`docs`ディレクトリに最適化されたWEBデプロイメントファイルが生成される。
 ### 補足
-- `yarn build`に失敗する場合は、もう一度やってみるとうまくいくことがある。（既知のバグ #1 ）
+- `yarn build`に失敗する場合は、もう一度やってみるとうまくいくことがある。（既知のバグ [#1](https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/issues/1) ）
 - RPGアツマールにアップロードしたいなら、デプロイされた`docs`をzipで圧縮したものをアップロードすればいい
 
 ## GitHub Pagesでゲームを遊べるようにする（上級者向け）
@@ -95,7 +95,7 @@ yarn build
 
 ## バグを見つけたら
 - こちらで報告お願いします。(要GitHubアカウント)
-https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/issues
+    - https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/issues
 
 ## 免責事項
 このツールを使用していかなる問題が起きても、私はその責を負いません。使用は自己責任でお願いします。
