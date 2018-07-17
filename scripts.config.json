@@ -1,0 +1,40 @@
+{
+    "gameDirName": "Sample",
+    "devDir": "./src/",
+    "buildDir": "./docs/",
+    "rpgrt": "./bin/Game.rpgproject",
+    "assetPath": [
+        "audio/bgm/",
+        "audio/bgs/",
+        "audio/me/",
+        "audio/se/",
+        "img/animations/",
+        "img/battlebacks1/",
+        "img/battlebacks2/",
+        "img/characters/",
+        "img/enemies/",
+        "img/faces/",
+        "img/parallaxes/",
+        "img/pictures/",
+        "img/sv_actors/",
+        "img/sv_enemies/",
+        "img/system/",
+        "img/tilesets/",
+        "img/titles1/",
+        "img/titles2/",
+        "movies/",
+        "icon/",
+        "fonts/"
+    ],
+    "codePath": [
+        "",
+        "data/",
+        "js/",
+        "js/libs/",
+        "js/plugins/",
+        "fonts/"
+    ],
+    "exceptionPath": [
+        "icon/icon.png"
+    ]
+}

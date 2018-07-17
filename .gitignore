@@ -1,0 +1,12 @@
+/node_modules/*
+
+# 本開発ディレクトリ
+## プロジェクト
+/dev/*
+!/dev/.gitkeep
+## 素材制作用
+/assets/*
+!/assets/*.md
+!/assets/*.txt
+
+# /build はデプロイ用に使用する。
