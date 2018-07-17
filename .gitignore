@@ -2,11 +2,11 @@
 
 # 本開発ディレクトリ
 ## プロジェクト
-/dev/*
-!/dev/.gitkeep
+/src/*
+!/src/.gitkeep
 ## 素材制作用
 /assets/*
 !/assets/*.md
 !/assets/*.txt
 
-# /build はデプロイ用に使用する。
+# /docs はデプロイ用に使用する。
