@@ -9,7 +9,7 @@
     "setup": "yarn install && yarn decode",
     "decode": "node scripts/setup",
     "build": "node scripts/deploy",
-    "deploy": "yarn decode && yarn test && yarn build",
+    "server:deploy": "yarn decode && yarn test && yarn build",
     "clean": "yarn cache clean",
     "reset": "rm -rf node_modules && yarn install",
     "reset:win": "rd /s/q node_modules && yarn install",
