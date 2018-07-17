@@ -1,8 +1,14 @@
 # RPGMV-SmartDeploy-forWEB
 ツクールMVプロジェクトのWEBデプロイを効率化 / Improve efficiency of WEB deployment of RPGMV project.
-## Usage
-0. 必要環境
-- RPG Maker MV (1.6.1以降推奨)
-- Git
-- Node.js, npm
-- Yarn
+## 必要なもの
+- **PC**
+    - Windowsを推奨。
+    - Linuxでも動くかもしれない。
+    - Macで動くかは確認してない。
+- **ソフトウェア**
+    - RPGツクールMV
+    - Git
+    - Node.js (npm)
+    - Yarn
+- **その他**
+    - RPGツクールMV製ゲーム
