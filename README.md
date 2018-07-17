@@ -62,7 +62,7 @@ yarn build
 ### 補足
 - `yarn build`に失敗する場合は、もう一度やってみるとうまくいくことがある。（既知のバグ [#1](https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/issues/1) ）
 - RPGアツマールにアップロードしたいなら、デプロイされた`docs`をzipで圧縮したものをアップロードすればいい
-- `RPGMV-SmartDeploy-forWEB`というディレクトリ名をそのまま好きな名前に変更したり、<br>新しく作ったGitHubブランチに内容をそのまま入れたりして使ってもいいと思う。
+- `RPGMV-SmartDeploy-forWEB`というディレクトリ名をそのまま好きな名前に変更したり、<br>新しく作ったGitHubブランチに内容をそのまま入れたりするとワンポイント使いやすいかも
 
 ## GitHub Pagesでゲームを遊べるようにする（上級者向け）
 ### 準備
