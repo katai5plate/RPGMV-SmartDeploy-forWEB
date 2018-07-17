@@ -1,10 +1,10 @@
 {
-  "name": "mof-chapter-2",
+  "name": "rpgmv-smartdeploy",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/katai5plate/MOF-chapter-2",
+  "repository": "https://github.com/katai5plate/RPGMV-SmartDeploy-forWEB/",
   "author": "katai5plate <katai5plate.sub@gmail.com>",
-  "license": "CC-BY-NC-ND-4.0",
+  "license": "MIT",
   "scripts": {
     "setup": "yarn install && yarn decode",
     "decode": "node scripts/setup",
