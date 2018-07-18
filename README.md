@@ -88,6 +88,7 @@ yarn build
 5. `Branch to deploy`は`master`を選択 -><br>`Build command`は`yarn server:deploy`を入力 -> `Publich directory`は`docs`を入力 -><br>`Deploy site`をクリック。
 6. 遷移したページの上の方に、デプロイが成功したらURLが表示される。
 ### 補足
+- デプロイが成功しなかった場合は、`Build command`：`yarn server:deploy:redecode`も試してみる。
 - 試してないけど、BitBucketからでもNetlifyで公開可能だと思われ。
 
 ## バグを見つけたら
